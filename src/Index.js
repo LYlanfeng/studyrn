@@ -18,6 +18,7 @@ const instructions = Platform.select({
 
 export default class Index extends Component {
   static navigationOptions = {
+    title: '首页',
     header: null
   }
   constructor (props) {
